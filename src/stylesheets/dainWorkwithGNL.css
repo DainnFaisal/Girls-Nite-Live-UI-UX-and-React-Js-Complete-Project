@@ -1,0 +1,84 @@
+.gnl-section{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.lady1-img {
+    padding-bottom: 10%;
+}
+
+.lady2-img {
+    padding-top: 40%;
+}
+
+.work-heading {
+    font-family: dainBrandFont;
+    font-weight: bolder;
+    font-size: 90px;
+    margin-top: 25%;
+}
+
+.expetise-heading {
+    font-weight: 700;
+}
+
+.lead-btn {
+    padding: 10px 60px;
+    border-radius: 30px;
+    background-color: #DD0B80;
+    color: antiquewhite;
+    border-color: #DD0B80;
+    border: 1px solid#DD0B80;
+}
+.lead-btn:hover{
+    background-color: black;
+    border-color: black;
+}
+.voice-heading{
+    font-weight: 700;
+}
+.link-icon{
+    color: #DD0B80;
+    border: 1px solid #DD0B80;
+    margin-left: 1%;
+}
+.become-sponser{
+    font-family: dainBrandFont;
+    font-weight: bolder;
+    font-size: 90px;
+    text-align: center;
+}
+.aqua{
+    color: rgb(31, 202, 202);
+    font-weight: 900;
+}
+.work-para{
+    font-weight: 700;
+}
+.work-with-gnl{
+    /* background color of 3 color ranges (gradient) */
+  /* color is changing towards the left */
+  background: linear-gradient(to left, #e998ca, #f3f3f3, #eea5d8);
+  background-size: 200% 100%;
+  animation: gradientAnimation 5s linear infinite;
+}
+/* gradient animation */
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 0%;
+    }
+  
+    100% {
+      background-position: 100% 0%;
+    }
+  }
+  @media screen and (max-width:700px) {
+    .work-heading{
+        font-size: 30px;
+    }
+    .become-sponser{
+        font-size: 30px;
+    }
+    .lady1-img {
+        margin-top: 10%;
+    }
+  }

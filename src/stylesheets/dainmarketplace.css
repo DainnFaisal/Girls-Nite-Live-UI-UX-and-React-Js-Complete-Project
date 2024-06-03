@@ -1,0 +1,76 @@
+.market-place-page{
+    background: linear-gradient(to left, #89b0c7, #f3f3f3, #7bc1fa);
+    background-size: 200% 100%;
+    animation: gradientAnimation 5s linear infinite;
+}
+.welcome-heading {
+    text-align: center;
+    margin-bottom: 8%;
+    padding-top: 8%;
+    font-family: dainBrandFont;
+    font-weight: bolder;
+}
+
+.lifestyle {
+    color: black;
+}
+
+
+.container {
+    position: relative;
+}
+
+.background-img {
+    display: block;
+    width: 100%;
+}
+
+.lifestyle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-family: dainBrandFont;
+    font-weight: bolder;
+}
+
+.business-services {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-family: dainBrandFont;
+    font-weight: bolder;
+}
+
+.card-title-pink {
+    color: #DD0B80;
+    font-size: 16px;
+}
+
+.blue-bg {
+    background-color: aqua;
+}
+
+.card {
+    box-shadow: 0px 0px 5px 0px #000000;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    /* Example: scale the element by 10% on hover */
+    box-shadow: 0px 0px 15px 0px #000000;
+    /* Change box shadow on hover */
+}
+
+@media screen and (max-width:700px) {
+    .background-img{
+        height: 300px;
+        object-fit: cover;
+    }
+}

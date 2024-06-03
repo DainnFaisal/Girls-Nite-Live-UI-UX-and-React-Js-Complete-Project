@@ -1,0 +1,34 @@
+.setlinks{
+    text-decoration: none;
+    color: rgb(80, 79, 79);
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+.setlinks:hover{
+    color: #DD0B80;
+}
+.navs{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+ul{
+    text-align: center;  
+    font-family: 'Quicksand', sans-serif;
+}
+li{
+    text-align: center; 
+    font-family: 'Quicksand', sans-serif; 
+} 
+.d-flex{
+    font-family: 'Quicksand', sans-serif; 
+}
+.search-btn{
+    border: none;
+    background-color: white;
+    color: #DD0B80;
+}
+@media screen and (max-width:950px) {
+  li{
+    text-align: left;
+  }
+}

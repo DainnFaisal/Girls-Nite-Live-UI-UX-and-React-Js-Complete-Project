@@ -1,0 +1,38 @@
+.blogs-page{
+       /* background color of 3 color ranges (gradient) */
+  /* color is changing towards the left */
+  background: linear-gradient(to left, #89b0c7, #f3f3f3, #7bc1fa);
+  background-size: 200% 100%;
+  animation: gradientAnimation 5s linear infinite;
+}
+
+.mini-para2 {
+    color: antiquewhite;
+    text-align: center;
+    font-weight: 800;
+}
+
+
+.carousel-heading {
+    color: antiquewhite;
+    text-align: center;
+}
+
+.carousel-title {
+    color: antiquewhite;
+    text-align: center;
+}
+
+.custom-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: antiquewhite;
+}
+@media screen and (max-width:900px) {
+    .carousel-title{
+        display: none;
+    }
+}

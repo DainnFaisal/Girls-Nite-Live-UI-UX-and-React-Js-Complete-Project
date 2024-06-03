@@ -1,0 +1,201 @@
+.about-page {
+    background: linear-gradient(to left, #89b0c7, #f3f3f3, #7bc1fa);
+    background-size: 200% 100%;
+    animation: gradientAnimation 5s linear infinite;
+}
+
+.heading {
+    margin-top: 5%;
+    text-align: left;
+    font-family: normal normal 300 95px/104px Quicksand;
+    letter-spacing: 2px;
+    color: #353434;
+    opacity: 1;
+    margin-left: 10%;
+}
+
+.image-set {
+    width: 50px;
+    float: left;
+    margin-left: 1%;
+}
+
+.para {
+    text-align: left;
+    font-family: normal normal normal 20px/29px Segoe UI;
+    letter-spacing: 0px;
+    color: #0a0a0a;
+    opacity: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+}
+
+.btn-set {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 12px;
+    background-color: #DD0B80;
+    color: antiquewhite;
+    border: #DD0B80;
+    border-radius: 35px;
+    margin-left: 10%;
+}
+
+.btn-set:hover {
+    background-color: #353434;
+}
+
+.hosts {
+    text-align: center;
+}
+
+.img-1 {
+    margin-top: 15%;
+}
+
+.img-2 {
+    margin-top: 65%;
+}
+
+.img-3 {
+    margin-top: 40%;
+}
+
+.img-5 {
+    margin-top: 25%;
+}
+
+.icons-set {
+    margin-right: 2%;
+}
+
+.Read-more-btn {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 16rem;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.Read-more-btn:hover {
+    background-color: #DD0B80;
+}
+
+.card-title {
+
+    text-align: left;
+    font-family: normal normal bold 12px/47px Quicksand;
+    letter-spacing: 0px;
+    color: #949494;
+    opacity: 1;
+    font-size: 14px;
+}
+
+.card-text {
+    text-align: left;
+    font-family: normal normal bold 17px/47px Quicksand;
+    letter-spacing: 0px;
+    color: #242424;
+    opacity: 1;
+    font-size: 16px;
+}
+
+.padding {
+    padding: 18px;
+}
+
+.tittles {
+    text-align: left;
+    font-family: normal normal bold 29px/80px Quicksand;
+    letter-spacing: 0px;
+    color: #242424;
+    opacity: 1;
+}
+
+.texts {
+    text-align: left;
+    font-family: normal normal bold 20px/47px Quicksand;
+    letter-spacing: 0px;
+    color: #797878;
+    opacity: 1
+}
+
+.card {
+    border-color: rgb(203, 237, 248);
+}
+
+.bg-blue {
+    background-color: rgb(203, 237, 248);
+}
+
+@media screen and (min-width:500px) {
+    .card {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
+@media screen and (min-width:600px) {
+    .card {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+
+@media screen and (max-width:700px) {
+    .about-section-img {
+        display: none;
+    }
+
+    .arrow-img1 {
+        display: none;
+    }
+
+    .img-1 {
+        margin-top: 0%;
+        height: 400px;
+        object-fit: cover;
+       border-radius: 15px;
+    }
+
+    .img-2 {
+        margin-top: 0%;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+
+    .img-3 {
+        margin-top: 0%;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+    .img-5 {
+        margin-top: 0%;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+    .img-4{
+        margin-top: 0%;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+    
+    .first-section{
+        margin-bottom: 0;
+    }
+ 
+
+}

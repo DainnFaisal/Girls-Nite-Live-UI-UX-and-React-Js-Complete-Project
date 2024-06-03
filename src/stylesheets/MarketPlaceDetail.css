@@ -1,0 +1,79 @@
+.container {
+    position: relative;
+}
+
+.background-img {
+    display: block;
+    width: 100%;
+}
+.market-detailed-page{
+    background: linear-gradient(to left, #89b0c7, #f3f3f3, #7bc1fa);
+    background-size: 200% 100%;
+    animation: gradientAnimation 5s linear infinite;
+}
+.lifestyle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-family: dainBrandFont;
+    font-weight: bolder;
+}
+
+.bellowarrow-img {
+    width: 30px;
+    float: right;
+}
+
+.leftside {
+    width: 90%;
+}
+
+.rightside {
+    width: 10%;
+}
+
+.detailed-page-para {
+    margin-right: 10%;
+    text-align: justify;
+}
+
+.shop-btn {
+
+    background: #DD0B80 0% 0% no-repeat padding-box;
+    border-radius: 7px;
+    opacity: 1;
+    color: whitesmoke;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 430px;
+    padding-right: 430px;
+    font-family: 'Quicksand', sans-serif;
+    border-color: #DD0B80;
+    margin-left: 10%;
+    margin-right: 10%;
+    cursor: pointer;
+}
+.shop-btn:hover{
+    background-color: #414040;
+    border-color:#414040;
+    color: antiquewhite;
+}
+
+@media screen and (max-width:1200px) {
+    .shop-btn{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+@media screen and (max-width:700px) {
+    .background-img{
+        height: 300px;
+        object-fit: cover;
+    }
+    .bellowarrow-img{
+        display: none;
+    }
+}

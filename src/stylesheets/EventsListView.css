@@ -1,0 +1,91 @@
+.List-view {
+    background: linear-gradient(to left, #e998ca, #f3f3f3, #eea5d8);
+  background-size: 200% 100%;
+  animation: gradientAnimation 5s linear infinite;
+}
+
+.list-view-section {
+    background-color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 2);
+    transition: box-shadow 0.3s ease-in-out;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.eve-date {
+    margin-top: 0%;
+    background-color: rgba(148, 146, 146, 0.822);
+    color: antiquewhite;
+    text-align: center;
+    width: 50px;
+    border-top-left-radius:10px ;
+
+}
+
+.headings {
+
+    text-align: left;
+    font-family: normal normal bold 23px/90px Quicksand;
+    letter-spacing: 0px;
+    color: #949494;
+    opacity: 1;
+    font-size: 15px;
+    margin-left: 5%;
+}
+
+.mini-para {
+    text-align: left;
+    font-family: normal normal bold 32px/88px Quicksand;
+    letter-spacing: 0px;
+    color: #242424;
+    opacity: 1;
+    font-size: 18px;
+    margin-left: 5%;
+    text-align: justify;
+}
+
+.detailed-para {
+    text-align: left;
+    font-family: normal normal normal 23px/41px Quicksand;
+    letter-spacing: 0px;
+    color: #949494;
+    opacity: 1;
+    font-size: 16px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+}
+
+.tickets-btn {
+    border: 2px solid;
+    border-color: #DD0B80;
+    border-radius: 7px;
+    background-color: #DD0B80;
+    color: antiquewhite;
+    padding-left: 62px;
+    padding-right: 62px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    float: left;
+    margin-left: 5%;
+}
+
+.tickets-btn:hover {
+    background-color: #949494;
+    border-color: #949494;
+}
+
+.duration {
+    width: 40px;
+}
+
+.img-handler {
+    padding: 20px 20px;
+    border-radius: 1px;
+}
+.setting{
+    float: right;
+}

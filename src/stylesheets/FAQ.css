@@ -1,0 +1,87 @@
+.FAQS-section{
+    background: linear-gradient(to left, #89b0c7, #f3f3f3, #7bc1fa);
+    background-size: 200% 100%;
+    animation: gradientAnimation 5s linear infinite;
+}
+.FAQS-img{
+    position: relative;
+}
+.background-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+.FAQS-main-heading{
+    font-weight: bolder;
+}
+.FAQS-para{
+    font-weight: 500;
+    text-align: justify;
+}
+.FAQS-key-point{
+    font-weight: 900;
+    color: #DD0B80;
+    font-size: 20px;
+}
+.FAQS-key-text{
+    font-weight: 500;
+    font-size: 18px;
+}
+.pink-clr{
+    color: #DD0B80;
+}
+.first-row{
+    border: 2px solid #DD0B80;
+}
+.second-row{
+    border: 2px solid #DD0B80;
+}
+.p-2{
+    width: 90%;
+}
+
+.bg-pink{
+    background-color: #DD0B80;
+    color: antiquewhite;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.FAQS-btn{
+    background: antiquewhite;
+    font-family: 'Quicksand', sans-serif;
+    opacity: 1;
+    color: black;
+    padding: 10px 80px;
+    font-family: 'Quicksand', sans-serif;
+    border: 1px solid#DD0B80;
+    border-radius: 10px;
+    font-weight: 900;
+}
+
+.FAQS-btn:hover {
+    background-color: #414040;
+    border-color: #414040;
+    color: antiquewhite;
+}
+.contact-container{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+@media screen and (max-width:1000px) {
+    .FAQS-para {
+     margin-left: 5%;
+     margin-right: 5%;
+    }
+    .first-row{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .second-row{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}

@@ -1,0 +1,267 @@
+.about-this-event-page{
+    background: linear-gradient(to left, #89b0c7, #f3f3f3, #7bc1fa);
+    background-size: 200% 100%;
+    animation: gradientAnimation 5s linear infinite;
+}
+
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.set-date {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 15px;
+    font-family: normal normal bold 21px/74px Quicksand;
+    color: #7a7979;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.set-heading {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 32px;
+    font-family: normal normal bold 70px/97px Quicksand;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.set-para {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 15px;
+    font-family: normal normal bold 70px/97px Quicksand;
+    color: #7a7979;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.set-btn {
+    margin-left: 10%;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 14px;
+    background-color: #DD0B80;
+    border: 1px solid #DD0B80;
+    color: antiquewhite;
+    font-family: 'Quicksand', sans-serif;
+}
+.set-btn:hover{
+    background-color: #252525;
+    border-color: #252525;
+}
+
+.info-para {
+    margin-left: 12%;
+    margin-right: 12%;
+    font-family: 'Quicksand', sans-serif;
+    text-align: justify;
+}
+
+.info-section {
+   
+    font-family: 'Quicksand', sans-serif;
+}
+
+.refund-para {
+    font-size: 13px;
+    font-family: 'Quicksand', sans-serif;
+    color: #7a7979;
+    margin-left: 23.5%;
+    margin-right: 23.5%;
+    text-align: justify;
+}
+
+.refund-heading {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    margin-left: 23.5%;
+    margin-right: 23.5%;
+}
+
+.refund-heading-two {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    margin-left: 23.5%;
+    margin-right: 23.5%;
+}
+
+.refund-para-two {
+    font-size: 13px;
+    font-family: 'Quicksand', sans-serif;
+    color: #7a7979;
+    margin-left: 23.5%;
+    margin-right: 23.5%;
+    text-align: justify;
+}
+.tickets-section{
+    margin-left: 23.5%;
+    margin-right: 23.5%;
+}
+
+.set-div {
+    margin-top: 13%;
+    
+}
+
+.share-with-friends {
+ 
+    font-family: 'Quicksand', sans-serif;
+}
+
+.share-heading {
+    margin-left: 12%;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.social-media-icons {
+    margin-left: 12%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.contact-organizer {
+    margin-left: 12%;
+    margin-right: 12%;
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    
+}
+
+.contact-para {
+    padding-top: 35px;
+    text-align: center;
+    color: blue;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.Scheduled-date {
+    position: absolute;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.301);
+    width: 40px;
+    height: 50px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.heart-icon {
+    position: absolute;
+    left: 260px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.timer-img {
+    float: left;
+    margin-left: 0px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.timer-text {
+    position: absolute;
+    left: 62px;
+    top: 350px;
+    text-align: left;
+    font-family: normal normal bold 17px/47px Quicksand;
+    letter-spacing: 0px;
+    color: #949494;
+    opacity: 1;
+    font-size: 16px;
+}
+
+.other-events-title {
+    text-align: left;
+    font-family: normal normal bold 25px/53px Quicksand;
+    letter-spacing: 0px;
+    color: #242424;
+    opacity: 1;
+    font-size: 20px;
+    margin-left: 10%;
+}
+
+.other-events {
+    background: linear-gradient(to left, #e998ca, #f3f3f3, #eea5d8);
+    background-size: 200% 100%;
+    animation: gradientAnimation 5s linear infinite;
+}
+
+/* events page css */
+.events {
+    text-align: center;
+    font: normal normal bold Quicksand;
+    letter-spacing: 0px;
+    color: #252525;
+    opacity: 1;
+}
+.events-section{
+    background: linear-gradient(to left, #e998ca, #f3f3f3, #eea5d8);
+  background-size: 200% 100%;
+  animation: gradientAnimation 5s linear infinite;
+}
+.views{
+    float: right;
+    padding-right: 5%;
+}
+.fa-solid ,.fa-table-cells{
+    color: #DD0B80;
+    width: 50px;
+}
+.about-this-event-btn{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 16rem;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.about-this-event-btn:hover{
+    background-color: #DD0B80;
+}
+
+
+
+@media screen and (max-width:700px) {
+    .about-this-event-image {
+        display: none;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .refund-para {
+     margin-left: 12%;
+     margin-right: 12%;
+    }
+    .refund-heading{
+        margin-left: 12%;
+        margin-right: 12%;
+        font-size: 18px;
+    }
+    .refund-heading-two{
+        margin-left: 12%;
+        margin-right: 12%;
+        font-size: 18px;
+    }
+    .refund-para-two{
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+    .tickets-section{
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+    .social-media-icons{
+        width: 55%;
+    }
+    .share-heading{
+        font-size: 18px;
+    }
+}

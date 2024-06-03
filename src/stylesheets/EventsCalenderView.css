@@ -1,0 +1,128 @@
+.Calender-view {
+    background: linear-gradient(to left, #e998ca, #f3f3f3, #eea5d8);
+    background-size: 200% 100%;
+    animation: gradientAnimation 5s linear infinite;
+}
+
+.calender-view-section {
+    background-color: antiquewhite;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 2);
+    transition: box-shadow 0.3s ease-in-out;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.Calender-view-imgs {
+    padding: 20px 20px;
+    border-radius: 1px;
+    ;
+}
+
+.calender-view-heading {
+    text-align: left;
+    font-family: normal normal bold 29px/47px Quicksand;
+    letter-spacing: 0px;
+    color: #242424;
+    opacity: 1;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.calender-view-date {
+    text-align: left;
+    font-family: normal normal bold 14px/47px Quicksand;
+    letter-spacing: -0.14px;
+    color: #242424;
+    opacity: 1;
+    font-size: 16px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.calender-view-para {
+    text-align: left;
+    font-family: normal normal bold 13px/22px Quicksand;
+    letter-spacing: 0.64px;
+    color: #515670;
+    opacity: 1;
+    font-size: 16px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+}
+
+.pricing-para {
+    color: black;
+    font-family: normal normal bold 17px/47px Quicksand;
+    letter-spacing: -0.17px;
+    opacity: 1;
+    font-size: 18px;
+}
+
+.calender {
+    color: black;
+    font-family: normal normal bold 17px/47px Quicksand;
+    letter-spacing: -0.17px;
+    color: #242424;
+    opacity: 1;
+    font-size: 14px;
+
+}
+
+.times {
+    color: black;
+    width: 200px;
+    font-family: normal normal bold 17px/47px Quicksand;
+    letter-spacing: -0.17px;
+    color: #242424;
+    opacity: 1;
+    font-size: 14px;
+}
+
+.register {
+
+    border: 2px solid;
+    border-color: #DD0B80;
+    border-radius: 7px;
+    background-color: #DD0B80;
+    color: antiquewhite;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.register:hover {
+    background-color: #949494;
+    border-color: #949494;
+}
+
+.white {
+    background-color: whitesmoke;
+}
+
+.Multi-days {
+    text-align: center;
+    font-size: 50px;
+}
+
+.pink-div {
+    background-color: #DD0B80;
+}
+
+@media screen and (max-width:700px) {
+    .register {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .register {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
